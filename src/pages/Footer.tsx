@@ -4,7 +4,7 @@ import { ArrowUpFromDot } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="bg-[#A81421] text-white font-poppins text-base py-6 px-4">
+    <footer className="bg-beje-secundario text-white font-poppins text-base py-6 px-4">
       <div className="flex items-center w-4/5 max-w-350 mx-auto gap-8  md:flex-nowrap">
         
         <a href="#Inicio" className="flex justify-center md:justify-start items-center min-w-[6rem] md:w-auto">

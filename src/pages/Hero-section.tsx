@@ -12,7 +12,7 @@ export function Hero() {
           <div className="w-4/5 flex flex-col justify-center gap-10">
             <img src={Logo} width={300} alt="" />
             <h2 className="text-vermelho-primario text-2xl">Consultoria de rotina,<br/> processos e atendimento</h2>
-            <button className="w-1/3 bg-vermelho-primario">Contate-nos</button>
+            <button className="w-1/3 bg-vermelho-primario text-branco-fundo">Contate-nos</button>
           </div>
         </div>
         <div className="w-1/2 h-full relative flex justify-center">
@@ -24,18 +24,18 @@ export function Hero() {
        <div className="w-full bg-vermelho-primario flex items-center justify-center py-6">
         <div className="flex flex-row w-4/5 gap-4">
           <div className="gap-1.5 flex flex-col">
-            <h1 className="font-semibold">7/24</h1>
-            <p>Suporte online</p>
+            <h1 className="font-semibold text-branco-fundo">7/24</h1>
+            <p className="text-branco-fundo">Suporte online</p>
           </div>
           <hr className="h-auto border-l-2 border-branco-primario"></hr>
           <div className="gap-1.5 flex flex-col">
-            <h1 className="font-semibold">+<CountUp end={100} duration={3.5} /></h1>
-            <p>Atendimentos</p>
+            <h1 className="font-semibold text-branco-fundo">+<CountUp end={100} duration={3.5} /></h1>
+            <p className="text-branco-fundo">Atendimentos</p>
           </div>
           <hr className="h-auto border-l-2 border-branco-primario"></hr>
           <div className="gap-1.5 flex flex-col">
-            <h1 className="font-semibold">+1M</h1>
-            <p>Active Patients</p>
+            <h1 className="font-semibold text-branco-fundo">+1M</h1>
+            <p className="text-branco-fundo">Active Patients</p>
           </div>
         </div>
        </div>
