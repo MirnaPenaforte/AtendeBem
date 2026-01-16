@@ -17,6 +17,7 @@ html, body, #root {
   --color-branco-fundo: #E1E1E1;
   --color-vermelho-primario: #8D3B27;
   --color-beje-secundario: #D3A07D;
+  --color-branco-letra: #EBEBEB;
 
   --font-titulo: "Inter", sans-serif;
   --font-corpo: "Roboto", sans-serif;

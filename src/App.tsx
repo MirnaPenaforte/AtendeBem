@@ -4,6 +4,8 @@ import { Footer } from './pages/Footer'
 import { Header } from './pages/Header'
 import { Hero }  from './pages/Hero-section'
 import { Parceiros } from './pages/ParceirosHero'
+import { QuemSomos } from './pages/QuemSomos'
+import {Formularios} from './pages/Formulario'
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Header/>
       <Hero/>
       <Parceiros/>
+      <QuemSomos/>
       <Apresentacao/>
+      <Formularios/>
       <Footer/>
     </>
   )
