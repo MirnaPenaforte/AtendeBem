@@ -1,12 +1,12 @@
 import { useState, type ChangeEvent, type FormEvent } from "react"
 import { Button } from "../components/ui/button"
+import { CardForms } from "../components/ui/cardsForms"
 
 export function Formularios(){
 
     const[name, setName]= useState("")
     const[cel, setCel] = useState("")
     const[mensg, setMensg] = useState("")
-    
     
     console.log(name)
     
@@ -30,8 +30,6 @@ export function Formularios(){
 
     }
 
-
-    
     function handleChangeName(event:ChangeEvent<HTMLInputElement>){
         //console.log(event.target.value)
         setName(event.target.value)
@@ -50,18 +48,15 @@ export function Formularios(){
                        "placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-700";
 
     return(
-        <section className="w-full bg-gray-50 flex justify-center py-18">
+        <section className="w-full bg-gray-50 justify-center flex py-18">
 
-            <div className="w-4/5 flex items-center justify-between gap-12">
-
-
-                <div className="w-1/2">
-
-                    <h2 className="text-[32px] text-center text-vermelho-primario font-bold">Entre em contato conosco para tirar suas duvidas</h2>
+            <div className="w-4/5 flex justify-between items-start gap-12">
 
 
+                <div className="w-1/2 flex flex-col gap-5">
+                    <h2 className="text-2xl text-left text-vermelho-primario font-bold">Entre em contato conosco</h2>
+                    <CardForms/>
                 </div> 
-
 
                 <div className="bg-white border border-gray-200 rounded-xl shadow-lg p-4 w-4/5 max-w-md mx-auto ">
 
@@ -71,9 +66,7 @@ export function Formularios(){
                         <input type="text" placeholder="Digite sua mensagem aqui" onChange={handleChangeMensg} value={mensg} className={inputStyle}/>
 
                         <Button className="bg-vermelho-primario">Enviar</Button>
-                        
                     </form>
-                
                 </div>
             </div>
         </section>

@@ -4,7 +4,7 @@ import {
   MarqueeFade,
   MarqueeItem,
 } from '../components/ui/carousel';
-import Logo from "../assets/logo_spotfy.png"
+import Logo from "../assets/Logo.svg"
 
 export function Parceiros() {
     return(

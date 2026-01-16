@@ -1,5 +1,5 @@
 import './App.css'
-import { Apresentacao } from './pages/ApresentacaoSect'
+// import { Apresentacao } from './pages/ApresentacaoSect'
 import { Footer } from './pages/Footer'
 import { Header } from './pages/Header'
 import { Hero }  from './pages/Hero-section'
@@ -14,7 +14,7 @@ function App() {
       <Hero/>
       <Parceiros/>
       <QuemSomos/>
-      <Apresentacao/>
+      {/* <Apresentacao/> */}
       <Formularios/>
       <Footer/>
     </>

@@ -12,16 +12,14 @@ export function QuemSomos() {
                     <img className="w-4/5 h-auto rounded-3xl" src={CarolComLogo} alt="Imagem de uma menina segurando a logo da empresa" />
                 </div>
 
-                <div className="w-1/2 ">
-                    <h2 className="text-[48px] text-center text-branco-letra font-bold">Quem Somos</h2>
-                    <p className="text-[24px] text-center text-branco-letra font-bold mt-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem obcaecati veniam aperiam laborum, ab assumenda sed iure minus et accusamus quaerat dicta cumque placeat incidunt nobis, numquam accusantium consectetur ad.</p>
+                <div className="w-1/2 flex flex-col">
+                    <h2 className="text-5xl text-left text-branco-letra font-bold">Quem Somos</h2>
+                    <p className="text-2xl text-left text-branco-letra font-semibold mt-6">A Atende Bem é uma consultoria de rotina, processos e atendimento, desenvolvida para organizar o dia a dia, alinhar equipes e transformar o atendimento em uma experiência estratégica, clara e eficiente.</p>
                 </div>
 
             </div>
 
         </section>
     )
-
-
 
 }
