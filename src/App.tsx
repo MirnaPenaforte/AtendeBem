@@ -6,6 +6,7 @@ import { Hero }  from './pages/Hero-section'
 import { Parceiros } from './pages/ParceirosHero'
 import { QuemSomos } from './pages/QuemSomos'
 import {Formularios} from './pages/Formulario'
+import { ClienteOculto } from './pages/ApresentacaoSect'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Hero/>
       <Parceiros/>
       <QuemSomos/>
-      {/* <Apresentacao/> */}
+      <ClienteOculto/>
       <Formularios/>
       <Footer/>
     </>
