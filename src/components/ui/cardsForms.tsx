@@ -10,8 +10,9 @@ export function CardForms() {
                         <p className="text-xl font-bold font-inter text-vermelho-primario text-left">Contatos</p>
                     </div>
                     
-                    <p className="text-sm text-left md:text-base md:text-lef font-bold font-inter text-vermelho-primario">(98) 99156-0036</p>
-                    <p className="text-sm text-left md:text-base md:text-left font-bold font-inter text-vermelho-primario">recantodojudo@gmail.com</p>
+                    <p className="text-sm text-left md:text-base md:text-lef font-bold font-inter text-vermelho-primario">(98) 98773-0795</p>
+                    <p className="text-sm text-left md:text-base md:text-left font-bold font-inter text-vermelho-primario">carolineatendebem@gmail.com</p>
+                    <p className="text-sm text-left md:text-base md:text-left font-bold font-inter text-vermelho-primario">filipeatendebem@gmail.com</p>
                 </div>
             </div>
         </>
