@@ -7,6 +7,7 @@ import { Parceiros } from './pages/ParceirosHero'
 import { QuemSomos } from './pages/QuemSomos'
 import {Formularios} from './pages/Formulario'
 import { ClienteOculto } from './pages/ApresentacaoSect'
+import { Roda } from './pages/RODA'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Parceiros/>
       <QuemSomos/>
       <ClienteOculto/>
+      <Roda/>
       <Formularios/>
       <Footer/>
     </>
