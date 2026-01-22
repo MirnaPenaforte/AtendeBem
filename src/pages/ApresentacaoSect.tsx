@@ -1,4 +1,4 @@
-import ClienteOcult from "../assets/clienteOculto.gif"
+import Logo_com_lupa from "../assets/Logo_com_lupa.gif"
 
 export function ClienteOculto() {
     return (
@@ -13,7 +13,7 @@ export function ClienteOculto() {
                             
                             <div className="relative rounded-3xl overflow-hidden border-[12px] border-beje-secundario/10 shadow-2xl">
                                 <img 
-                                    src={ClienteOcult} 
+                                    src={Logo_com_lupa} 
                                     alt="Análise de Cliente Oculto" 
                                     className="w-full h-auto"
                                 />

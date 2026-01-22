@@ -17,8 +17,8 @@ export function Footer() {
 
         <nav className="w-full md:w-auto">
           <ul className="flex md:flex-row gap-6 md:gap-10 text-center md:text-left text-lg font-bold font-medium p-0 m-0 list-none justify-end">
-            <li><a href="#Sobre" className="text-branco-fundo transition-all">Sobre</a></li>
-            <li><a href="#Contato" className="text-branco-fundo transition-all">Contato</a></li>
+            <li><a href="#QuemSomos" className="text-branco-fundo transition-all">Sobre</a></li>
+            <li><a href="#Inicio" className="text-branco-fundo transition-all">Contato</a></li>
             <li><a href="#Parceiros" className="text-branco-fundo transition-all">Parceiros</a></li>
           </ul>
         </nav>

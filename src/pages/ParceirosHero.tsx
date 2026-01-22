@@ -8,7 +8,7 @@ import Logo from "../assets/Logo.svg"
 
 export function Parceiros() {
     return(
-        <div className="w-full h-full bg-branco-fundo flex items-center justify-center py-18">
+        <div id="Parceiros" className="w-full h-full bg-branco-fundo flex items-center justify-center py-18">
             <div className="w-4/5 flex flex-col items-center justify-center gap-18">
                 <h2 className="text-vermelho-primario text-2xl text-center">Parcerias que fortalecem, conectam<br/>e geram resultados reais.</h2>
                 <div className='w-full flex justify-center '>
