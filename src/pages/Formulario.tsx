@@ -2,6 +2,7 @@ import { useState, type FormEvent } from "react"
 import { Button } from "../components/ui/button"
 import { CardForms } from "../components/ui/cardsForms"
 import { UserIcon, PhoneIcon, ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/react/24/outline"
+import CarolComLogo from "../assets/CarolComLogo.png"
 
 export function Formularios() {
 
@@ -41,7 +42,10 @@ export function Formularios() {
                     <h2 className="text-4xl text-vermelho-primario font-bold">
                         Entre em contato conosco
                     </h2>
-                    <CardForms />
+
+                    <CardForms/>
+                    
+                    {/* <img className="max-w-4/5 mt-10" src={CarolComLogo} alt="Ceo da atende bem segurando a logo" /> */}
                 </div>
 
                 <div className="flex items-center justify-center bg-white border border-gray-200 rounded-2xl shadow-xl p-8 w-4/5 max-w-md">
@@ -89,6 +93,7 @@ export function Formularios() {
                         </Button>
                     </form>
                 </div>
+                
             </div>
         </section>
     )

@@ -1,4 +1,4 @@
-import CarolComLogo from "../assets/CarolComLogo.png"
+
 
 
 export function QuemSomos() {
@@ -9,7 +9,7 @@ export function QuemSomos() {
 
             
                 <div className="w-1/2" >
-                    <img className="w-4/5 h-auto rounded-3xl" src={CarolComLogo} alt="Imagem de uma menina segurando a logo da empresa" />
+                    <img className="w-4/5 h-auto rounded-3xl" src="ceo.jpg" alt="Imagem de uma menina segurando a logo da empresa" />
                 </div>
 
                 <div className="w-1/2 flex flex-col">
