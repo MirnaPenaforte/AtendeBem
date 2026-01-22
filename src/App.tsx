@@ -18,8 +18,8 @@ function App() {
       <Parceiros/>
       <QuemSomos/>
       <Servicos/>
-      <Roda/>
       <ClienteOculto/>
+      <Roda/>
       <Formularios/>
       <Footer/>
     </>
