@@ -24,18 +24,18 @@ export function Hero() {
        <div className="w-full bg-vermelho-primario flex items-center justify-center py-6">
         <div className="flex flex-row w-4/5 gap-4">
           <div className="gap-1.5 flex flex-col">
-            <h1 className="font-semibold text-branco-fundo">7/24</h1>
-            <p className="text-branco-fundo">Suporte online</p>
-          </div>
-          <hr className="h-auto border-l-2 border-branco-primario"></hr>
-          <div className="gap-1.5 flex flex-col">
             <h1 className="font-semibold text-branco-fundo">+<CountUp end={100} duration={3.5} /></h1>
-            <p className="text-branco-fundo">Atendimentos</p>
+            <p className="text-branco-fundo text-center">Atendimentos</p>
+          </div>
+          <hr className="h-auto border-l-2 border-branco-primario"></hr>
+          <div className="gap-1.5 flex flex-col justify-center items-center">
+            <h1 className="font-semibold text-branco-fundo">+1.000</h1>
+            <p className="text-branco-fundo text-center">Horas de consultorias</p>
           </div>
           <hr className="h-auto border-l-2 border-branco-primario"></hr>
           <div className="gap-1.5 flex flex-col">
-            <h1 className="font-semibold text-branco-fundo">+1M</h1>
-            <p className="text-branco-fundo">Active Patients</p>
+            <h1 className="font-semibold text-branco-fundo">2 anos</h1>
+            <p className="text-branco-fundo text-center">Atuação</p>
           </div>
         </div>
        </div>
