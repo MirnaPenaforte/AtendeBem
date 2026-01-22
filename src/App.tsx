@@ -9,6 +9,7 @@ import {Formularios} from './pages/Formulario'
 import { ClienteOculto } from './pages/ApresentacaoSect'
 import { Roda } from './pages/RODA'
 import { Servicos } from './pages/Servicos'
+import { Conquistas } from './pages/Conquistas'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Servicos/>
       <ClienteOculto/>
       <Roda/>
+      <Conquistas/>
       <Formularios/>
       <Footer/>
     </>

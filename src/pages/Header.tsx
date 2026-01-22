@@ -6,7 +6,12 @@ export function Header() {
             <nav>
                 <ul className="flex items-center gap-18">
                     
-                    
+                    <li>
+                        <a href="#Inicio" className="hover:text-beje-secundario transition-opacity text-vermelho-primario font-bold text-fonte-titulo text-2xl">
+                            Inicio
+                        </a>
+                    </li>
+
                     <li>
                         <a href="#QuemSomos" className="hover:text-beje-secundario transition-opacity text-vermelho-primario font-bold text-fonte-titulo text-2xl">
                             Quem Somos
@@ -20,14 +25,22 @@ export function Header() {
                     </li>
 
                     <li>
+                        <a href="#ClienteOculto" className="hover:text-beje-secundario transition-opacity text-vermelho-primario font-bold text-fonte-titulo text-2xl">
+                            Cliente Oculto
+                        </a>
+                    </li>
+
+                    <li>
+
                         <a href="#RODA" className="hover:text-beje-secundario transition-opacity text-vermelho-primario font-bold text-fonte-titulo text-2xl">
                             R. O. D. A.
                         </a>
                     </li>
                     
+
                     <li>
-                        <a href="#ClienteOculto" className="hover:text-beje-secundario transition-opacity text-vermelho-primario font-bold text-fonte-titulo text-2xl">
-                            Cliente Oculto
+                        <a href="#Conquistas" className="hover:text-beje-secundario transition-opacity text-vermelho-primario font-bold text-fonte-titulo text-2xl">
+                            Conquistas
                         </a>
                     </li>
                     

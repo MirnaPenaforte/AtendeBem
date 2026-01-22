@@ -6,7 +6,7 @@ import CountUp from 'react-countup';
 
 export function Hero() {
   return (
-    <section className="w-full h-screen bg-branco-fundo flex flex-col">
+    <section id="Inicio" className="w-full h-screen bg-branco-fundo flex flex-col">
       <div id="" className="w-full h-screen flex">
         <div className="w-1/2 h-full bg-branco-fundo flex justify-end">
           <div className="w-4/5 flex flex-col justify-center gap-10">
