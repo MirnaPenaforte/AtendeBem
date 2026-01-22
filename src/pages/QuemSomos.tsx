@@ -3,7 +3,7 @@ import CarolComLogo from "../assets/CarolComLogo.png"
 
 export function QuemSomos() {
     return(
-        <section className="w-full h-full bg-vermelho-primario flex items-center justify-center py-18">
+        <section id="QuemSomos" className="w-full h-full bg-vermelho-primario flex items-center justify-center py-18">
 
             <div className="w-4/5 flex items-center justify-between gap-10">
 

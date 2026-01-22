@@ -8,6 +8,7 @@ import { QuemSomos } from './pages/QuemSomos'
 import {Formularios} from './pages/Formulario'
 import { ClienteOculto } from './pages/ApresentacaoSect'
 import { Roda } from './pages/RODA'
+import { Servicos } from './pages/Servicos'
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <Hero/>
       <Parceiros/>
       <QuemSomos/>
-      <ClienteOculto/>
+      <Servicos/>
       <Roda/>
+      <ClienteOculto/>
       <Formularios/>
       <Footer/>
     </>

@@ -2,7 +2,7 @@ import ClienteOcult from "../assets/clienteOculto.gif"
 
 export function ClienteOculto() {
     return (
-        <section className="w-full bg-branco-fundo py-20">
+        <section id="ClienteOculto" className="w-full bg-branco-fundo py-20">
             <div className="max-w-7xl mx-auto px-6">
                 
                 <div className="bg-white rounded-[40px] p-8 lg:p-16 flex  lg:flex-row items-center gap-16 shadow-sm border border-beje-secundario/20">

@@ -17,7 +17,7 @@ export function Formularios() {
         }
 
         const msg = `Oi, meu nome é ${name}. ${mensg} .`
-        const url = `https://wa.me/5598984393030?text=${encodeURIComponent(msg)}`
+        const url = `https://wa.me/5598987730795?text=${encodeURIComponent(msg)}`
 
         window.open(url, "_blank")
 
