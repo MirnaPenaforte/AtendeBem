@@ -9,16 +9,19 @@ type Id = {
 export function RenderVideos({IdVideo}:Id){
     
     const opts = {
-        height: '100%', // <-- Isso faz o vídeo preencher a altura
-        width: '100%',  // <-- Isso faz o vídeo preencher a largura
+        height: '100%',
+        width: '100%',
         playerVars: {
-          autoplay: 0,}
-    
-      };
+            autoplay: 0,
+            controls: 1,
+            iv_load_policy: 3, 
+            modestbranding: 1,
+        },
+    };
       
     
     return (
         
-        <YouTube videoId = {IdVideo} className="w-full aspect-video" opts={opts}/>
+        <YouTube videoId = {IdVideo} className="w-full h-full" opts={opts} iframeClassName="w-full h-full"/>
     )
 }
