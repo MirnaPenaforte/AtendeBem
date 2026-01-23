@@ -44,7 +44,7 @@ export function Header() {
                         </a>
                     </li>
 
-                    {/* Contate-nos agora é igual aos outros (sem borda, sem fundo) */}
+                    
                     <li>
                         <a 
                             href="https://wa.me/5598987730795" 

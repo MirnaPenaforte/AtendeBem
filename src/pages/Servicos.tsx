@@ -9,7 +9,7 @@ export function Servicos() {
 
         
         <h2 className="text-5xl md:text-5xl text-vermelho-primario font-bold leading-none tracking-tighter mb-16 text-left">
-          Serviços Prestados
+          Nossos Serviços
         </h2>
 
        
