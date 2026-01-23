@@ -5,13 +5,12 @@ export function Roda(){
         <section id='RODA' className="w-full bg-vermelho-primario flex items-center justify-center py-20 md:px-20">
     
 
-            <div className="max-w-4/5 flex  md:flex-row items-start justify-between gap-80">
+            <div className="max-w-4/5 flex gap-32">
                 
                 
-                <div className="flex-1 text-left ">
-                    <h2 className="text-6xl md:text-8xl text-white font-bold leading-none tracking-tighter flex flex-col mb-10">
-                        <span>R. O.</span>
-                        <span>D. A.</span>
+                <div className="flex-1 text-left w-1/2">
+                    <h2 className="text-5xl md:text-6xl text-white font-bold leading-none tracking-tighter flex flex-col mb-10">
+                        <span>R. O. D. A.</span>
                     </h2>
 
                     <p className="text-2xl md:text-3xl text-branco-letra font-bold mb-6">
@@ -27,13 +26,11 @@ export function Roda(){
                 </div>
 
                 
-                <div className="w-full max-w-[320px] md:max-w-[400px] aspect-[9/16] overflow-hidden rounded-3xl shadow-2xl bg-black">
+                <div className="w-1/2 max-w-[350px] md:max-w-[400px] aspect-[9/16] overflow-hidden rounded-3xl shadow-2xl bg-black">
                     <RenderVideos IdVideo={'3FXwD4TULfg'} />
                 </div>
 
             </div>
-</section>
-    
+        </section>
     )
-
 }
