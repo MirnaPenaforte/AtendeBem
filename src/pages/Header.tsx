@@ -8,7 +8,7 @@ export function Header() {
                     
                     <li>
                         <a href="#Inicio" className="hover:text-beje-secundario text-lg transition-opacity text-vermelho-primario font-bold text-fonte-titulo text-2xl">
-                            Inicio
+                            Início
                         </a>
                     </li>
 
