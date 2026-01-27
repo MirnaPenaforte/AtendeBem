@@ -5,7 +5,7 @@ export function ClienteOculto() {
         <section id="ClienteOculto" className="w-full bg-branco-fundo py-20">
             <div className="max-w-7xl mx-auto px-6">
                 
-                <div className="bg-white rounded-[40px] p-8 lg:p-16 flex  lg:flex-row items-center gap-16 shadow-sm border border-beje-secundario/20">
+                <div className="bg-white rounded-[40px] p-8 lg:p-16 flex  lg:flex-row items-center gap-16 shadow-sm border border-beje-secundario/20 sm:flex-col md:flex-col">
                     
                     <div className="w-full lg:w-1/2">
                         <div className="relative">
@@ -45,7 +45,7 @@ export function ClienteOculto() {
                             do seu cliente de forma anônima e profissional.
                         </p>
 
-                        <div className="pt-6">
+                        <div className="pt-6 ">
                             <button className="group relative bg-vermelho-primario text-branco-letra font-titulo font-bold py-5 px-12 rounded-2xl shadow-xl hover:shadow-vermelho-primario/20 transition-all duration-300 active:scale-95">
                                 <span className="relative z-10">Quero contratar este serviço</span>
                                 <div className="absolute inset-0 bg-black/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
