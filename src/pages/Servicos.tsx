@@ -2,9 +2,9 @@ import { Card } from "../components/cards";
 
 export function Servicos() {
   return (
-    <section id="Servicos" className="w-full  md:pr-28 md:pl-28 md:pt-28 bg-branco-fundo">
+    <section id="Servicos" className="w-full  md:pr-28 md:pl-28 md:pt-28 bg-branco-fundo max-sm:flex">
       
-      <div className="w-4/5 mx-auto px-6 flex flex-col justify-center">
+      <div className="w-4/5 mx-auto px-6 flex flex-col justify-center max-sm:flex max-sm:mt-8">
         <h2 className="text-5xl md:text-5xl text-vermelho-primario font-bold leading-none tracking-tighter mb-16 text-left">
           Nossos Serviços
         </h2>

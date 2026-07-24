@@ -1,5 +1,18 @@
-@tailwind utilities;
+/* No Tailwind v4, esta única linha importa todo o core e breakpoints */
+@import "tailwindcss";
 
+/* Suas variáveis de tema do Tailwind v4 */
+@theme {
+  --color-branco-fundo: #E1E1E1;
+  --color-vermelho-primario: #8D3B27;
+  --color-beje-secundario: #D3A07D;
+  --color-branco-letra: #EBEBEB;
+
+  --font-titulo: "Inter", sans-serif;
+  --font-corpo: "Roboto", sans-serif;
+}
+
+/* Seus estilos globais */
 html, body, #root {
   height: 100%;
   width: 100%;
@@ -13,14 +26,4 @@ html, body, #root {
 #root {
   display: flex;
   flex-direction: column;
-}
-
-@theme {
-  --color-branco-fundo: #E1E1E1;
-  --color-vermelho-primario: #8D3B27;
-  --color-beje-secundario: #D3A07D;
-  --color-branco-letra: #EBEBEB;
-
-  --font-titulo: "Inter", sans-serif;
-  --font-corpo: "Roboto", sans-serif;
 }
